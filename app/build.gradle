@@ -1,0 +1,20 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.rivergame.and'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.rivergame.and'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
+
+    sourceSets {
+        main.assets.srcDir rootProject.file('images')
+    }
+}
